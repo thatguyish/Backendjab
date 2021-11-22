@@ -1,11 +1,9 @@
 package com.thatguysapps.Backendjab.models;
 
 import com.fasterxml.jackson.annotation.*;
-import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
 import javax.persistence.*;
 import java.util.List;
-import java.util.Set;
 
 @Entity
 public class Book {

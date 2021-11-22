@@ -4,13 +4,10 @@ import com.thatguysapps.Backendjab.models.Book;
 import com.thatguysapps.Backendjab.models.Category;
 import com.thatguysapps.Backendjab.repository.BookRepository;
 import com.thatguysapps.Backendjab.repository.CategoryRepository;
-import org.hibernate.annotations.common.util.impl.LoggerFactory;
-import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Set;
 
 @Service
 public class BookService {
